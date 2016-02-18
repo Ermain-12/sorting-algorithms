@@ -1,3 +1,4 @@
+#Sorting Algorithms
 A sorting algorithm is an algorithm that puts elements of a list in a certain order. The most-used orders are numerical order and lexicographical order.<sup>1</sup> This repository contains the implementation of some of the basic sorting algorithms on both Python and Rust programming languages. Algorithms implemented in Python were taken from the textbook <b>Problem Solving with Algorithms and Data Structures using Python</b><sup>2</sup>, published on Interactive Python, which has a Creative Commons license.
 
 #Bubble Sort
