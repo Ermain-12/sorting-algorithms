@@ -13,17 +13,20 @@ void main(void)
 int bubblesort(int lista[],int n)
  {
   n=n-1;
-  int temp, x, i;
-  for(x=n;x>=0;x--)
+  int temp, i, c = 1;
+  while(n > 0 && c == 1)
    {
-    for(i=0;i<x;i++)
+    c = 0;
+    for (i=0;i<n;i++)
      {
       if(lista[i]>lista[i+1])
        {
+        c = 1;
         temp = lista[i];
         lista[i] = lista[i+1];
         lista[i+1] = temp;
        }
      }
+    n = n-1;
    }
  }
