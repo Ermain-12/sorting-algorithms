@@ -1,5 +1,5 @@
 #Sorting Algorithms
-A sorting algorithm is an algorithm that puts elements of a list in a certain order. The most-used orders are numerical order and lexicographical order.<sup>1</sup> This repository contains the implementation of some of the basic sorting algorithms on both Python and Rust programming languages. Intended for academic purposes only. Algorithms implemented in Python were taken from the textbook <b>Problem Solving with Algorithms and Data Structures using Python</b><sup>2</sup>, published on Interactive Python, which has a Creative Commons license.
+A sorting algorithm is an algorithm that puts elements of a list in a certain order. The most-used orders are numerical order and lexicographical order.<sup>1</sup>
 
 #Bubble Sort
 Bubble sort, sometimes referred to as sinking sort, is a simple sorting algorithm that repeatedly steps through the list to be sorted, compares each pair of adjacent items and swaps them if they are in the wrong order. The pass through the list is repeated until no swaps are needed, which indicates that the list is sorted.<sup>3</sup>
@@ -17,6 +17,9 @@ The steps are:
 
 #Shell sort
 Shellsort, also known as Shell sort or Shell's method, is an in-place comparison sort. It can be seen as either a generalization of sorting by exchange (bubble sort) or sorting by insertion (insertion sort). The method starts by sorting pairs of elements far apart from each other, then progressively reducing the gap between elements to be compared. Starting with far apart elements can move some out-of-place elements into position faster than a simple nearest neighbor exchange.<sup>5</sup>
+
+#About this repository
+This repository contains the implementation of some of the basic sorting algorithms on Python, Rust and C programming languages. Intended for academic purposes only. Algorithms implemented in Python were taken from the textbook <b>Problem Solving with Algorithms and Data Structures using Python</b><sup>2</sup>, published on Interactive Python, which has a Creative Commons license.
 
 References
 <ol>
