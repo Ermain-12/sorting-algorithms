@@ -19,7 +19,7 @@ The steps are:
 Shellsort, also known as Shell sort or Shell's method, is an in-place comparison sort. It can be seen as either a generalization of sorting by exchange (bubble sort) or sorting by insertion (insertion sort). The method starts by sorting pairs of elements far apart from each other, then progressively reducing the gap between elements to be compared. Starting with far apart elements can move some out-of-place elements into position faster than a simple nearest neighbor exchange.<sup>5</sup>
 
 #About this repository
-This repository contains the implementation of some of the basic sorting algorithms on Python, Rust and C programming languages. Intended for academic purposes only. Algorithms implemented in Python were taken from the textbook <b>Problem Solving with Algorithms and Data Structures using Python</b><sup>2</sup>, published on Interactive Python, which has a Creative Commons license.
+This repository contains the implementation of some of the basic sorting algorithms on Python programming language. Intended for academic purposes only. Algorithms implemented in Python were taken from the textbook <b>Problem Solving with Algorithms and Data Structures using Python</b><sup>2</sup>, published on Interactive Python, which has a Creative Commons license.
 
 References
 <ol>
